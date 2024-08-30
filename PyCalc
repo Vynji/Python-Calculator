@@ -1,0 +1,26 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+print("Welcome to Royals Calculator!")
+arith_opt = input("Which operation would you like to perform? Choose between Addition, Subtraction, Multiplication, Division, or Exponent.")
+a = float(input('Enter 1st number: '))
+b = float(input('Enter 2nd number: '))
+l = len(arith_opt)
+if arith_opt == "Addition":
+    while l = len(arith_opt)
+    sum = (a + b)
+    print(f'{a} + {b} = {sum}')
+elif arith_opt == "Subtraction":
+    diff = (a - b)
+    print(f'{a} - {b} = {diff}')
+elif arith_opt == "Multiplication":
+    multi = ( a * b)
+    print(f'{a} * {b} = {multi}')
+elif arith_opt == "Division":
+    div = (a / b)
+    print(f'{a} / {b} = {div}')
+elif arith_opt == "Exponent":
+    exp = (a ** b)
+    print(f'{a} ** {b} = {exp}')
+else:
+    print("Please type the operation with proper casing.")
